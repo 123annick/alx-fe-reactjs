@@ -1,10 +1,9 @@
-import UserCard from './components/UserCard';
+import WelcomeMessage from './components/WelcomeMessage';
 
 function App() {
   return (
     <div>
-      <h1>Welcome to My React App</h1>
-      <UserCard name="Annick Ujeneza" email="annick@example.com" />
+      <WelcomeMessage />
     </div>
   );
 }
