@@ -1,8 +1,9 @@
-// src/components/MainContent.jsx
+import React from 'react';
+
 function MainContent() {
   return (
-    <main>
-      <p>I love to visit New York, Paris, and Tokyo.</p>
+    <main style={{ padding: '20px', backgroundColor: '#eef2f3', fontSize: '16px' }}>
+      <p>Explore the cities below.</p>
     </main>
   );
 }

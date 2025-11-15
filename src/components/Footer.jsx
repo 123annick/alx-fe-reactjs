@@ -1,8 +1,9 @@
-// src/components/Footer.jsx
+import React from 'react';
+
 function Footer() {
   return (
-    <footer>
-      <p>© 2023 City Lovers</p>
+    <footer style={{ backgroundColor: '#333', color: 'white', textAlign: 'center', padding: '10px' }}>
+      <p>© 2025 My Travel App</p>
     </footer>
   );
 }
