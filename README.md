@@ -1,16 +1,56 @@
-# React + Vite
+# Recipe Sharing Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based web application for browsing, adding, and sharing recipes.
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React 18
+- Vite
+- Tailwind CSS
+- React Router (coming soon)
 
-## React Compiler
+## Setup Instructions
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Clone the repository:
+```bash
+   git clone https://github.com/YOUR-USERNAME/alx-fe-reactjs.git
+   cd alx-fe-reactjs/recipe-sharing-platform
+```
 
-## Expanding the ESLint configuration
+2. Install dependencies:
+```bash
+   npm install
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. Run the development server:
+```bash
+   npm run dev
+```
+
+4. Open your browser and navigate to `http://localhost:5173`
+
+## Project Structure
+```
+recipe-sharing-platform/
+├── src/
+│   ├── components/     # Reusable components
+│   ├── pages/          # Page components
+│   ├── App.jsx         # Main app component
+│   └── index.css       # Global styles with Tailwind
+├── public/             # Static assets
+└── package.json        # Project dependencies
+```
+
+## Features
+
+- Browse recipes
+- View recipe details
+- Add new recipes
+- Responsive design with Tailwind CSS
+
+## Tailwind CSS Setup
+
+This project uses Tailwind CSS for styling. The configuration includes:
+- Custom content paths for all React components
+- PostCSS with autoprefixer
+- JIT (Just-In-Time) mode for optimal performance
